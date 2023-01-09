@@ -1,7 +1,5 @@
-public class PassArray
-{
-   public static void main(String[] args)
-   {
+public class PassArray{
+   public static void main(String[] args){
       final int NUM_ELEMENTS = 4;
       int[] someNums = {5, 10, 15, 20};
       int x;
@@ -15,8 +13,7 @@ public class PassArray
          System.out.print(" " + someNums[x]);
       System.out.println();
    }
-   public static void methodGetsArray(int[] arr)
-   {
+   public static void methodGetsArray(int[] arr){
       int x;
       System.out.print("At start of method arr holds: ");
       for(x = 0; x < arr.length; ++x)

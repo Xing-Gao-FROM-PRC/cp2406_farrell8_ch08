@@ -1,18 +1,14 @@
-public class Employee
-{
+public class Employee{
    private int empNum;
    private double empSal;
-   Employee(int e, double s)
-   {
+   Employee(int e, double s){
       empNum = e;
       empSal = s;
    }
-   public int getEmpNum()
-   {
+   public int getEmpNum(){
       return empNum;
    }
-   public double getSalary()
-   {
+   public double getSalary(){
       return empSal;
    }
 }

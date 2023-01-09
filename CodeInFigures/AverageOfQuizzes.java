@@ -1,8 +1,6 @@
 import java.util.*;
-public class AverageOfQuizzes
-{
-   public static void main(String[] args)
-   {
+public class AverageOfQuizzes{
+   public static void main(String[] args){
       int[] scores = new int[10];
       int score = 0;
       int count = 0;
@@ -13,15 +11,13 @@ public class AverageOfQuizzes
       System.out.print("Enter quiz score or " +
          QUIT + " to quit      >> ");
       score = input.nextInt();
-      while(score != QUIT)
-      {
+      while(score != QUIT){
           scores[count] = score;
           total += scores[count];
           ++count;
           if(count == MAX)
              score = QUIT;
-          else
-          {
+          else{
               System.out.print("Enter next quiz score or " +
                   QUIT + " to quit >> ");
               score = input.nextInt();

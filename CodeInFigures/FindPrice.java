@@ -1,8 +1,6 @@
 import javax.swing.*;
-public class FindPrice
-{
-   public static void main(String[] args)
-   {
+public class FindPrice{
+   public static void main(String[] args){
       final int NUMBER_OF_ITEMS = 10;
       int[] validValues = {101,  108,  201,  213,  266,
          304,  311,  409,  411,  412};
@@ -15,10 +13,8 @@ public class FindPrice
       strItem = JOptionPane.showInputDialog(null,
          "Enter the item number you want to order");
       itemOrdered = Integer.parseInt(strItem);
-      for(int x = 0; x < NUMBER_OF_ITEMS; ++x)
-      {
-         if(itemOrdered == validValues[x])
-         {
+      for(int x = 0; x < NUMBER_OF_ITEMS; ++x){
+         if(itemOrdered == validValues[x]){
             validItem = true;
             itemPrice = prices[x];
          }

@@ -1,7 +1,5 @@
-public class PassArrayElement
-{
-   public static void main(String[] args)
-   {
+public class PassArrayElement{
+   public static void main(String[] args){
       final int NUM_ELEMENTS = 4;
       int[] someNums = {5, 10, 15, 20};
       int x;
@@ -16,8 +14,7 @@ public class PassArrayElement
          System.out.print(" " + someNums[x]);
       System.out.println();
    }
-   public static void methodGetsOneInt(int one)
-   {
+   public static void methodGetsOneInt(int one){
       System.out.print("At start of method one is: " + one);
       one = 999;
       System.out.println(" and at end of method one is: " + one);
